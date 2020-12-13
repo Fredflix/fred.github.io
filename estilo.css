@@ -1,0 +1,407 @@
+body{
+  background-color: rgb(168, 165, 164);
+  font-family:helvetica;
+  background-image: url(imagens/rolo-marca.jpg);
+  background-attachment: fixed;
+}
+main{
+  background-color:rgb(13, 156, 226);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+/* cabecalho: inicio*/
+.header-cor{
+  background: #ffffff;
+  
+}
+
+.header_area{
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.menu_area{
+  margin-top: 15px;
+}
+
+.menu_area nav a{
+  background-color: #2e2c2e;
+  color:white;
+  margin-bottom: 10px;
+  padding: 5px;
+ 
+}
+.menu_area nav a:hover{
+  background-color: #646166;
+  font-size:110%;
+}
+.active{
+  background-color: #b1aaaa !important;
+}
+.logo{
+  width: 150px;
+  margin-top: 10px;
+}
+.novs{
+  width: 200px;
+  padding-left: 10px;
+  
+}
+
+.container {
+  width: 80%; 
+  position: relative;;  
+}
+input {width: 100%;} 
+input,  button {padding: 5px;}
+button {
+  position: absolute;   
+  top: 0; 
+  right: 0;
+
+}
+
+/* cabecalho: final*/
+
+/* menu mobili: inicio*/
+#menu-toggle{
+  display:none;
+}
+.menu-icon{
+  display:none;
+}
+.plataformas {
+  padding-bottom: 20px;
+}
+.plataformas a {
+  color: #2e2c2e;
+}
+@media screen and (max-width:600px){
+  .header nav{
+    display: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  
+}
+/* menu mobili: final*/
+
+/* main: inicio*/
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+#carousel-site li{
+  background-color: red;
+}
+.carousel-item .row{
+  background-color:rgba(236, 239, 240, 0.925);
+  border-radius: 50px;
+}
+.carousel-item #carousel-estilo-do-video{
+  max-width: 100%; min-width: 100%; max-height: 100%; min-height: 100%;
+  border-radius: 20px;
+}
+.carousel-inner{
+  border-radius: 30px;
+}
+
+.carousel-item .carousel-lancamento{
+  text-align: center; background-color:black; color:white;
+  
+}
+.carousel-item #carousel-texto{
+  padding: 20px;
+}
+/*estilização do carousel: final*/
+
+/*em destaque: inicio*/
+.em-destaque-filmes div{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.em-destaque-filmes div img{
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  height: 100%;
+}
+/*em destaque: final*/
+
+/*ultimas avaliações: inicio*/
+.ultimas-avaliacoes-editar-texto{
+  margin-top: 20px;
+}
+.ultimas-avaliacoes-comentarios-editar{
+  padding: 10px;
+  background-color: white;
+  margin: 1px;
+  
+  
+}
+.ultimas-avaliacoes-comentarios{
+  align-items: center;
+  margin-bottom:10px ;
+  background-color: white !important;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.ultimas-avaliacoes-comentarios li a{
+  text-align: center;
+  align-items: center;
+  background-color: white !important;
+  color: white !important;
+
+  margin-bottom:10px ;
+  
+}
+
+.ultimas-avaliacoes-comentarios li{
+  text-align: center;
+  align-items: center;
+  background-color: white !important;
+  color: white;
+  list-style:none;
+  margin-bottom:10px ;
+  
+}
+.ultimas-avaliacoes-comentarios h2 {
+  text-align: center;
+  align-items: center;
+  margin-bottom:10px ;
+  list-style:none;
+}
+
+.ultimas-avaliacoes-comentarios img{
+  max-width: 100%;
+  text-align: center;
+  
+}
+.checked {
+  color: orange;
+}
+/*ultimas avaliações: final*/
+
+/* entrevistas & making of: inicio*/
+.cor-entrevistas{
+  background-color:rgba(236, 239, 240, 0.925);
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.entrevistas-making-of{
+  text-align: center;
+  margin-bottom:10px ;
+}
+.entrevistas-making-of iframe{
+  max-width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+/* entrevistas & making of: inicio*/
+
+/* texto das seções: inicio*/
+.texto-das-secoes{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  color: black;
+  list-style: none;
+}
+.texto-das-secoes a{
+  text-align: center;
+  color: black;
+  font-size: x-large;
+  list-style: none;
+  line-height: 2;
+  ;
+}
+.texto-das-secoes div img{
+  width: 30px;
+  padding: 0px ;
+  margin-right: 0px; 
+  margin-left: 0px;
+
+}
+
+/* texto das seções: final*/
+
+/*botões das seções: inicio*/
+#botoes-das-secoes h4{
+  display: inline;
+}
+#botoes-das-secoes p{
+  display: inline;
+}
+#botoes-das-secoes{
+  text-align: right;
+}
+/*botões das seções: final*/
+
+/*novidades e sobre: inicio*/
+.novidades-imagens{
+  max-width: 100%;
+}
+.editar-novidades{
+ margin-bottom: 10px;
+ padding-bottom: 10px;
+}
+.editar-novidades-barra{
+  border-bottom: 2px solid ;
+  
+}
+/*novidades e sobre: final*/
+
+/* footer: inicio*/
+.footer-cor h2 p{
+  text-align: left;
+  padding: 10px;
+}
+
+.footer a{
+  list-style: none;
+  line-height: 1.7;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer-cor{
+  background:rgb(195, 218, 236);
+  border-radius: 1%;
+  color: black;
+ 
+}
+.footer_area{
+  padding: 20px;
+  text-align: center;
+  
+  
+}
+.footer_area img{
+  max-width: 100px;  
+}
+#direitos{
+  margin-top: 20px;
+}
+
+/* footer: final*/
+
+
+.plat-img {         
+    width: 100%;
+    height: 230px;
+    
+}
+    
+#titulo{
+     text-align: center;
+     margin-bottom: 20px;
+}
+.header-cor{
+    background: #ffffff;
+    
+  }
+header{
+      background: #ffffff;
+      height: 100%;
+      margin-bottom: 30px;
+  }
+.header_area{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+  }
+  
+.menu_area{
+    margin-top: 15px;
+  }
+  
+.menu_area nav a{
+    background-color: #2e2c2e;
+    color:white;
+    margin-bottom: 10px;
+    padding: 5px;
+   
+  }
+.menu_area nav a:hover{
+    background-color: #646166;
+    font-size:110%;
+  }
+.active{
+    background-color: #b1aaaa !important;
+  }
+.logo{
+    width: 150px;
+    margin-top: 10px;
+  }
+  
+  
+.container {
+    width: 80%; 
+    position: relative;;  
+  }
+input {width: 100%;} 
+input,  button {padding: 5px;}
+button {
+    position: absolute;   
+    top: 0; 
+    right: 0;
+  
+  }
+#menu-toggle{
+    display:none;
+  }
+.menu-icon{
+    display:none;
+  }
+@media screen and (max-width:600px){
+.header nav{
+      display: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    
+  }
+
+  body{
+    margin:0;
+    color:#444;
+    background-color:#98c2c2;
+    font:300 18px/18px Roboto, sans-serif;
+    transition:background .4s ease-in-out 0s;
+  }
+  .proxlanc {
+    width: 117px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: #000 !important;
+    
+  }
+  
+  .pldata {
+    line-height: 30px;
+    font-weight: 700;
+    
+  }
+  
+  .proxlanc img{
+    max-width: 100%;
+   
+  }
+
+
+

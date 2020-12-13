@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8">
+  <title>Fred</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo.css">
+
+
+</head>
+
+<body>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <div class="header-cor">
+    <header class="container header">
+
+      <div class="row">
+        <div class="col-12 header_area">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+              <a href="index2.html"><img src="imagens/logo.png" class="logo"></a>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-8 col-lg-7 menu_area">
+              <nav class="nav nav-pills flex-column flex-sm-row">
+                <div></div>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                  <i> <img src="fa fa-bars"></i>
+                  <i><img src="fa fa-times-circle" alt=></i>
+                </label>
+
+                <a class="flex-sm-fill text-sm-center nav-link active" href="lancamentos.html">Lançamentos</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="novidades.html">Novidades</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="plataformas.html">Plataformas</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="Generos.html">Genêros</a>
+
+              </nav>
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 col-lg-3 menu_area">
+              <a href="index2.html">
+                <form class="form-inline">
+                  <input id="procurar" class="form-control mr-sm-2" type="search" placeholder="Search"
+                    aria-label="Search">
+                  <button class="btn btn-outline-success my-2s my-sm-0" id="btn_Pesquisar" type="reset">OK</button>
+            </div>
+            </form></a>
+          </div>
+        </div>
+      </div>
+      <div>
+    </header>
+  </div>
+  <main class="container main">
+    <div class="row">
+      <div class="col-12">
+        <!--area do main-->
+        <div class="row main_area">
+          <div class="col-12">
+            <!--carousel-->
+            <div id="carousel-site" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-site" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-site" data-slide-to="1"></li>
+                <li data-target="#carousel-site" data-slide-to="2"></li>
+                <li data-target="#carousel-site" data-slide-to="3"></li>
+
+              </ol>
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-12">
+                      <h1 class="carousel-lancamento" style="text-align: center; background-color:black; color:white;">
+                        Lançamentos</h1>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                      <iframe id="carousel-estilo-do-video" src="https://www.youtube.com/embed/8XrFAXykgoc"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div id="carousel-texto" style="padding: 20px;" class="col-12 col-sm-12 col-md-12 col-lg-5">
+
+                      <h4 style="font-size: x-large;"><strong>Mulher-Maravilha 1984</strong></h4>
+                      <p style="font-size: large; line-height: 2"><strong>Sinopse:</strong>Mulher-Maravilha 1984
+                        acompanha Diana Prince/Mulher-Maravilha (Gal Gadot) em 1984,
+                        durante a Guerra Fria, que entra em conflito com dois grande inimigos -
+                        o empresário de mídia Maxwell Lord (Pedro Pascal)
+                        e a amiga que virou inimiga Barbara Minerva/Cheetah (Kristen Wiig) -
+                        enquanto se reúne com seu interesse amoroso Steve Trevor (Chris Pine).
+                        <br>
+                        <strong> <b>Diretor:</b> Patty Jenkins </strong>
+                        <br>
+                        <strong> <b>Estréia:</b> </strong>24 de dezembro de 2020
+                        <br>
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <h1 class="carousel-lancamento" style="text-align: center; background-color:black; color:white;">
+                        Lançamentos</h1>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                      <iframe id="carousel-estilo-do-video" src="https://www.youtube.com/embed/FQwmX3AGWQk"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div id="carousel-texto" style="padding: 20px;" class="col-12 col-sm-12 col-md-12 col-lg-5">
+                      <h4><strong>Top Gun 2</strong>
+                        <h4>
+                          <p><strong>Sinopse:</strong>Depois de mais de 30 anos de serviço como um dos principais
+                            aviadores da Marinha,
+                            Pete "Maverick" Mitchell está de volta, rompendo os limites como um piloto de testes
+                            corajoso. No mundo contemporâneo
+                            das guerras tecnológicas,
+                            Maverick enfrenta drones e prova que o fator humano ainda é essencial.
+                            <br>
+                            <strong><b>Diretor: </b> </strong> Joseph Kosinski
+                            <br>
+                            <strong> <b>Estréia:</b> </strong>8 de julho de 2021
+                            <br>
+
+                          </p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <h1 class="carousel-lancamento" style="text-align: center; background-color:black; color:white;">
+                        Lançamentos</h1>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                      <iframe id="carousel-estilo-do-video" src="https://www.youtube.com/embed/Lk7LPTq0_XY"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div id="carousel-texto" style="padding: 20px;" class="col-12 col-sm-12 col-md-12 col-lg-5">
+                      <h4><strong>Viúva Negra</strong></h4>
+                      <p style="font-size: large; line-height: 2"><strong>Sinopse:</strong>Em Viúva Negra, após seu
+                        nascimento, Natasha Romanoff (Scarlett Johansson) é
+                        dada à KGB, que a prepara para se tornar sua agente definitiva. Quando a URSS rompe, o governo
+                        tenta matá-la
+                        enquanto a ação se move para a atual Nova York, onde ela trabalha como freelancer. Após
+                        aventuras com os Vingadores, ela retorna para seu país de
+                        origem e se une à antigos aliados para acabar com o programa governamental que a transformou em
+                        uma assassina.
+
+                        <br>
+                        <strong> <b>Diretora:</b></strong> Cate Shortland
+                        <br>
+                        <strong> <b>Estréia:</b> </strong>19 de março de 2021
+                        <br>
+
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-12">
+                      <h1 class="carousel-lancamento" style="text-align: center; background-color:black; color:white;">
+                        Lançamentos</h1>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                      <iframe id="carousel-estilo-do-video"
+                        style="max-width: 100%; min-width: 100%; max-height: 100%; min-height: 100%;"
+                        src="https://www.youtube.com/embed/zfEqXQfl4hc" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                    <div id="carousel-texto" style="padding: 20px;" class="col-12 col-sm-12 col-md-12 col-lg-5">
+                      <h4><strong>Morbius</strong></h4>
+                      <p style="font-size: large; line-height: 2"><strong>Sinopse:</strong>ENas HQs, Michael Morbius é
+                        um bioquímico vencedor do Prêmio Nobel cuja
+                        tentativa de curar uma doença do sangue raro com um tratamento experimental envolvendo sangue de
+                        vampiros e terapia de eletrochoque transforma-o
+                        em um vampiro. Ele não possui todas as habilidades de um vampiro real, portanto, não está
+                        sujeito às mesmas limitações. Embora sua transformação
+                        tenha permitido habilidade para voar, força sobre-humana,
+                        velocidade e habilidades de cura, ele também tem uma forte aversão à luz e deve consumir sangue
+                        para sobreviver.
+
+                        <br>
+                        <strong><b>Diretor:</b></strong> <strong>Daniel Espinosa</strong>
+                        <br>
+                        <strong>Estréia: </strong>19 de março de 2021
+                        <br>
+
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <a class="carousel-control-prev" href="#carousel-site" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-site" role="button" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="sr-only">Avançar</span>
+              </a>
+
+            </div>
+          </div>
+
+
+
+
+
+
+          <!--Ultimas avaliações-->
+          <!--<div class="col-12 ultimas-avaliacoes-editar-texto">
+            <section class="texto-das-secoes">
+              <h2 class="">Últimas Avaliações</h2>
+            </section>
+          </div>-->
+
+
+
+
+          <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+            <section class="texto-das-secoes">
+              <h3 style="text-align: center;">
+                <span style="color: white; font-size: xxx-large;">
+                  <strong>Lançamentos</strong> </span></h3>
+            </section>
+            <h3 style="text-align: center;">
+              <span style="color: white; font-size: xx-large;">
+                <strong>Dezembro - 2020</strong> </span></h3>
+
+
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra">
+
+              <div class="col-12 ">
+                <a class="proxlanc" href="https://www.imdb.com/video/vi42843673?playlistId=tt6587640&ref_=tt_ov_vi">
+                  <span class="pldata">03/12/20</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/trolls2.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Trolls 2</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi2935079193?playlistId=tt6475714&ref_=tt_ov_vi">
+                  <span class="pldata">03/12/20</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/monster.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Monster Hunter</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi3843342105?playlistId=tt11321572&ref_=tt_ov_vi">
+                  <span class="pldata">03/12/20</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/m8.jpg" title="Próximos lançamentos nos cinemas">
+                  M8 - Quando a Morte Socorre a Vida</a>
+
+
+                <div class="col-12 ">
+                  <a class="proxlanc" href="https://www.imdb.com/video/vi3444227609?playlistId=tt5805768&ref_=tt_ov_vi">
+                    <span class="pldata">10/12/20</span>
+                    <img alt="Breve em cartaz nos cinemas" src="imagens/abe.jpg"
+                      title="Próximos lançamentos nos cinemas">
+                    Abe</a>
+                </div>
+
+                <div class="col-12 ">
+                  <a class="proxlanc"
+                    href="https://www.imdb.com/video/vi2381037849?playlistId=tt10919380&ref_=tt_ov_vi">
+                    <span class="pldata">10/12/20</span>
+                    <img alt="Breve em cartaz nos cinemas" src="imagens/freaky.jpg"
+                      title="Próximos lançamentos nos cinemas">
+                    Freaky - No Corpo de um Assassino</a>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                  <a class="proxlanc" href="https://www.imdb.com/video/vi1375060249?playlistId=tt5867314&ref_=tt_ov_vi">
+                    <span class="pldata">17/12/20</span>
+                    <img alt="Breve em cartaz nos cinemas" src="imagens/omensageirodoultimodia.jpg"
+                      title="Próximos lançamentos nos cinemas">
+                    O Mensageiro do Últomo Dia</a>
+                </div>
+
+
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                  <a class="proxlanc" href="https://www.imdb.com/video/vi1782890009?playlistId=tt7126948&ref_=tt_ov_vi">
+                    <span class="pldata">24/12/20</span>
+                    <img alt="Breve em cartaz nos cinemas" src="imagens/mulhermaravilha2.jpeg"
+                      title="Próximos lançamentos nos cinemas">
+                    Mulher-Maravilha 1984</a>
+                </div>
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi1257423129?playlistId=tt2948372&ref_=tt_ov_vi">
+                  <span class="pldata">24/12/20</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/soul.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Soul</a>
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi1221378329?playlistId=tt2850386&ref_=tt_ov_vi">
+                  <span class="pldata">24/12/20</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/croods.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Os Croods 2: Uma Nova Era</a>
+
+
+
+
+              </div>
+
+            </section>
+
+            <section class="texto-das-secoes">
+              <h3 style="text-align: center;">
+                <span style="color: white; font-size: xx-large;">
+                  <strong>Janeiro - 2021</strong> </span></h3>
+            </section>
+
+
+            <section class="row editar-novidades editar-novidades-barra">
+
+              <div class="col-12 ">
+                <a class="proxlanc" href="https://www.imdb.com/video/vi845397529?playlistId=tt1838556&ref_=tt_ov_vi">
+                  <span class="pldata">07/01/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/legado.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Legado Explosivo</a>
+
+                <a class="proxlanc" href="https://www.imdb.com/title/tt10805260/">
+                  <span class="pldata">07/01/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/dpa3_fin.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  D.P.A. 3</a>
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi456636953?playlistId=tt0293429&ref_=tt_ov_vi">
+                  <span class="pldata">14/01/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/mortalkombatt.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Mortal Kombat</a>
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi456636953?playlistId=tt0293429&ref_=tt_ov_vi">
+                  <span class="pldata">14/01/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/escaperoom2.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Escape Room 2</a>
+              </div>
+
+
+            </section>
+
+
+            <section class="texto-das-secoes">
+              <h3 style="text-align: center;">
+                <span style="color: white; font-size: xx-large;">
+                  <strong>Fevereiro - 2021</strong> </span></h3>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra">
+
+              <div class="col-12 ">
+                <a class="proxlanc" href="https://www.imdb.com/video/vi4185767705?playlistId=tt8376234&ref_=tt_ov_vi">
+                  <span class="pldata">11/02/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/pedro-coelho-2-o-fugitivo-poster.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Pedro Coelho 2 - O Fugitivo</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi3844914713?playlistId=tt6856242&ref_=tt_ov_vi">
+                  <span class="pldata">11/02/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/kingsmanaorigemposter.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  King's Man: A Origem</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi1896988441?playlistId=tt7740510&ref_=tt_ov_vi">
+                  <span class="pldata">18/02/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/espiritos.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Espiritos Obscuros</a>
+              </div>
+            </section>
+
+            <section class="texto-das-secoes">
+              <h3 style="text-align: center;">
+                <span style="color: white; font-size: xx-large;"><strong>Marco - 2021</strong>
+                </span></h3>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra">
+
+              <div class="col-12 ">
+                <a class="proxlanc" href="https://www.imdb.com/video/vi2518859545?playlistId=tt4513678&ref_=tt_ov_vi">
+                  <span class="pldata">03/12/20</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/ghost.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Ghostbusters - Mais Além</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi1325252889?playlistId=tt5109280&ref_=tt_ov_vi">
+                  <span class="pldata">11/03/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/rayaeoultimodragao2.jpeg"
+                    title="Próximos lançamentos nos cinemas">
+                  Raya e o Último Dragão</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi3346644761?playlistId=tt5108870&ref_=tt_ov_vi">
+                  <span class="pldata">18/03/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/morbius-jared.jpeg"
+                    title="Próximos lançamentos nos cinemas">
+                  Morbius</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/title/tt6932874">
+                  <span class="pldata">25/03/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/chefinho2.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  O Poderoso Chefinho 2 - Negócios de Família</a>
+              </div>
+            </section>
+
+            <section class="texto-das-secoes">
+              <h3 style="text-align: center;">
+                <span style="color: white; font-size: xx-large;"><strong>Abril - 2021</strong>
+                </span></h3>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra">
+
+              <div class="col-12 ">
+                <a class="proxlanc" href="https://www.imdb.com/video/vi1150599449?playlistId=tt2382320&ref_=tt_ov_vi">
+                  <span class="pldata">01/04/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/semtempoparamorrer-007-jamesbond25-.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  007 - Sem tempo Para Morrer</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi2444541465?playlistId=tt8332922&ref_=tt_ov_vi">
+                  <span class="pldata">22/04/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/umlugarsilencioso2-poster.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Um lugar Silencioso - Parte II</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/title/tt9376612">
+                  <span class="pldata">29/04/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/shangchi-.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Shang-Chi e a Lenda dos Dez Anéis</a>
+              </div>
+            </section>
+
+            <section class="texto-das-secoes">
+              <h3 style="text-align: center;">
+                <span style="color: white; font-size: xx-large;"><strong>Maio - 2021</strong>
+                </span></h3>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra">
+
+              <div class="col-12 ">
+                <a class="proxlanc" href="https://www.imdb.com/video/vi1202175513?playlistId=tt3480822&ref_=tt_ov_vi">
+                  <span class="pldata">06/05/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/viuva.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Viúva Negra</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi14335001?playlistId=tt5034838&ref_=tt_ov_vi">
+                  <span class="pldata">20/05/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/godzillavskong-monstroskaijuposter.png"
+                    title="Próximos lançamentos nos cinemas">
+                  Godzilla vs Kong</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi3267280409?playlistId=tt10342730&ref_=tt_ov_vi">
+                  <span class="pldata">20/05/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/espiral.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Espiral - O Legado de Jogos Mortais</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi2237120281?playlistId=tt5433138&ref_=tt_ov_vi">
+                  <span class="pldata">28/05/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/velozesfuriosos9.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Velozes e Furiosos 9</a>
+              </div>
+
+            </section>
+
+            <section class="texto-das-secoes">
+              <h3 style="text-align: center;">
+                <span style="color: white; font-size: xx-large;"><strong>Junho - 2021</strong>
+                </span></h3>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra">
+
+              <div class="col-12 ">
+                <a class="proxlanc" href="https://www.imdb.com/video/vi3705978649?playlistId=tt7069210&ref_=tt_ov_vi">
+                  <span class="pldata">03/06/20</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/invocacaodomal3-s.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Invocação do Mal 3 - A Ordem do Demônio</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/title/tt7097896>
+                              <span class=" pldata">03/12/20</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/venom2-.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Venom 2: Tempo de Carnificina</a>
+              </div>
+
+            </section>
+            <section class="texto-das-secoes">
+              <h3 style="text-align: center;">
+                <span style="color: white; font-size: xx-large;"><strong>Julho - 2021</strong>
+                </span></h3>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra">
+
+              <div class="col-12 ">
+                <a class="proxlanc" href="https://www.imdb.com/video/vi1583071001?playlistId=tt5113044&ref_=tt_ov_vi">
+                  <span class="pldata">01/07/20</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/minions2poster.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Minions 2: A Origem de Gru</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi2287451929?playlistId=tt1745960&ref_=tt_ov_vi">
+                  <span class="pldata">08/07/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/topgun2mavericks.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Top Gun 2: Maverick</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi2745744921?playlistId=tt0870154&ref_=tt_ov_vi">
+                  <span class="pldata">30/07/21</span>
+                  <img alt="Breve em cartaz nos cinemas"
+                    src="imagens/junglecruise-filme2020disney-therockjohnson-emilyblunt.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Jungle Cruise</a>
+              </div>
+            </section>
+
+            <section class="texto-das-secoes">
+              <h3 style="text-align: center;">
+                <span style="color: white; font-size: xx-large;"><strong>Agosto - 2021</strong>
+                </span></h3>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra">
+
+              <div class="col-12 ">
+                <a class="proxlanc" href="https://www.imdb.com/video/vi2571419161?playlistId=tt6334354&ref_=tt_ov_vi">
+                  <span class="pldata">05/08/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/oesquadraosuicida2-.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  O Esquadrão Suicida</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/title/tt8385148">
+                  <span class="pldata">19/08/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/duplaexplosiva2.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Dupla Explosiva 2</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi2226568729?playlistId=tt8337158&ref_=tt_ov_vi">
+                  <span class="pldata">19/08/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/aligademonstros.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  A liga de Montros</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi1395179033?playlistId=tt9347730&ref_=tt_ov_vi">
+                  <span class="pldata">26/08/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/alenda.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  A Lenda de Candyman</a>
+              </div>
+            </section>
+
+            <section class="texto-das-secoes">
+              <h3 style="text-align: center;">
+                <span style="color: white; font-size: xx-large;"><strong>Setembro - 2021</strong>
+                </span></h3>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra">
+
+              <div class="col-12 ">
+                <a class="proxlanc" href="https://www.imdb.com/title/tt6246322">
+                  <span class="pldata">02/09/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/ohomemnastrevas2.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  O Homem nas Trevas 2</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/title/tt11832046/">
+                  <span class="pldata">02/09/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/patrulhacanina.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Patrulha Canina - O Filme</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/title/tt10327252/?ref_=nv_sr_srsg_0">
+                  <span class="pldata">02/09/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/umanoitedecrime5.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Uma Noite de Crimes 5 - A Fronteira</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi3049046297?playlistId=tt1160419&ref_=tt_ov_vi">
+                  <span class="pldata">30/09/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/dunafilmeremake-2020-1.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Duna</a>
+              </div>
+            </section>
+
+            <section class="texto-das-secoes">
+              <h3 style="text-align: center;">
+                <span style="color: white; font-size: xx-large;"><strong>Outubro - 2021</strong>
+                </span></h3>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra">
+
+              <div class="col-12 ">
+                <a class="proxlanc" href="https://www.imdb.com/title/tt10665338/?ref_=nv_sr_srsg_0">
+                  <span class="pldata">14/10/21</span>
+                  <img alt="Breve em cartaz nos cinemas"
+                    src="imagens/halloween-kills-02-sequenciaterrordiadasbruxas.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Halloween Kills</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/title/tt8404256">
+                  <span class="pldata">21/10/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/gijoeorigens.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  G.I. Joe: Snake Eyes</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/title/tt9032400">
+                  <span class="pldata">28/10/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/oseternos.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Eternos</a>
+              </div>
+
+
+            </section>
+
+            <section class="texto-das-secoes">
+              <h3 style="text-align: center;">
+                <span style="color: white; font-size: xx-large;"><strong>Novembro - 2021</strong>
+                </span></h3>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra">
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <a class="proxlanc" href="https://www.imdb.com/title/tt9603212">
+                  <span class="pldata">18/11/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/missaoimposs.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Missão: Impossível 7</a>
+              </div>
+            </section>
+            <section class="texto-das-secoes">
+              <h3 style="text-align: center;">
+                <span style="color: white; font-size: xx-large;"><strong>Dezembro - 2021</strong>
+                </span></h3>
+            </section>
+
+            <section class="row editar-novidades editar-novidades-barra">
+
+              <div class="col-12 ">
+                <a class="proxlanc" href="http://www.adorocinema.com/filmes/filme-256880/">
+                  <span class="pldata">17/12/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/homemaranha3-2021.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Homem-Aranha 3</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/title/tt6443346">
+                  <span class="pldata">22/12/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/adaonegro-blackadam.png"
+                    title="Próximos lançamentos nos cinemas">
+                  Adão Negro</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi3109994009?playlistId=tt7657566&ref_=tt_ov_vi">
+                  <span class="pldata">22/12/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/mortenonilos.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Morte no Nilo</a>
+
+
+
+                <a class="proxlanc" href="https://www.imdb.com/video/vi1921171737?playlistId=tt6264654&ref_=tt_ov_vi">
+                  <span class="pldata">22/12/21</span>
+                  <img alt="Breve em cartaz nos cinemas" src="imagens/freeguy--.jpg"
+                    title="Próximos lançamentos nos cinemas">
+                  Free Guy - Assumindo o Controle</a>
+              </div>
+
+
+            </section>
+
+
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 ">
+            <section class="texto-das-secoes">
+              <h2 style="text-align: center;">
+                <span style="color: white; font-size: xx-large;">
+                  <strong>Mais procurados</strong></span></h2>
+
+              <a class="flex-sm-fill text-sm-center nav-link" href="#"></a>
+              <li class="col-12">
+                <a href="https://www.imdb.com/video/vi4234919449?playlistId=tt7939766&ref_=tt_ov_vi">1- Estou Pensando
+                  em Acabar com Tudo</a>
+              </li>
+              <li class="col-12">
+                <a href="https://www.imdb.com/video/vi2668412697?playlistId=tt5727208&ref_=tt_ov_vi">2- Joias Brutas</a>
+              </li>
+              <li class="col-12">
+                <a href="https://www.imdb.com/video/vi572440089?playlistId=tt9506474&ref_=tt_ov_vi">3- Rede de Ódio</a>
+              </li>
+              <li class="col-12">
+                <a href="https://www.imdb.com/video/vi1418378777?playlistId=tt8936646&ref_=tt_ov_vi">4- Resgate</a>
+              </li>
+              <li class="col-12">
+                <a href="https://www.imdb.com/title/tt6908274/?ref_=nv_sr_srsg_0">5- Durante a Tormenta</a>
+              </li>
+              <li class="col-12">
+                <a href="https://www.imdb.com/video/vi2308751129?playlistId=tt9243946&ref_=tt_ov_vi">6- El Camino: A
+                  Breaking Bad Movie</a>
+              </li>
+              <li class="col-12">
+                <a href="https://www.imdb.com/video/vi3060775449?playlistId=tt1860242&ref_=tt_ov_vi">7- Estrada Sem
+                  Lei</a>
+              </li>
+              <li class="col-12">
+                <a href="https://www.imdb.com/title/tt4332232/?ref_=nv_sr_srsg_0">8- Fratura</a>
+              </li>
+
+            </section>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+  <div class="footer-cor">
+    <footer class="container footer">
+      <h2 class="col-12">MENU</h2>
+
+      <p><a href="lancamentos.html"><strong>Lançamentos </strong> </a>
+
+      <p><a href="novidades.html"><strong>Novidades </strong> </a>
+
+      <p><a href="plataformas.html"><strong>Plataformas </strong></a>
+
+      <p><a href="Generos.html"><strong>Gêneros </strong></a>
+        </a>
+      </p>
+
+      <div class="row">
+        <div class="col-10 footer_area">
+          Copyright 2020 - TRABALHO INTERDISCIPLINAR: APLICAÇÕES WEB - ICEI PUC MINAS
+
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+          <img src="imagens/logo.png" class="logo">
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"></script>
+</body>
+
+
+
+
+</html>
